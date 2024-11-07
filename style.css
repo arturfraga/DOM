@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+#atividade1 .quadrado {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#atividade1 .quadrado:hover {
+    opacity: 0.8;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#atividade2 p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#atividade3 #textoEscondido {
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
+}
+
+#atividade4 #textoPadrao {
+    font-weight: bold;
+}
+
+#atividade5 #mensagemTecla {
+    font-size: 18px;
+    color: #555;
+    font-style: italic;
+}
+
+#atividade6 #resultadoVoto {
+    margin-top: 20px;
+}
+
+#atividade6 img {
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 150px;
+    display: block;
+}
+
+#atividade6 #confirmacao {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#atividade6 #confirmarVoto {
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .quadrado {
+        width: 80px;
+        height: 80px;
+    }
+}
